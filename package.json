@@ -1,0 +1,47 @@
+{
+  "name" : "BlackBeard",
+  "version" : "0.0.1",
+  "homepage": "https://github.com/onmodulus/blackbeard",
+  "description" : "Pirate Metrics for Node.js.",
+  "main": "./lib/bb",
+  "keywords" : [
+    "metrics",
+    "aarrr",
+    "pirate"
+  ],
+  "author": "Modulus <support@modulus.io>",
+  "contributors": [
+    {
+      "name": "Richard Key",
+      "email": "richard@modulus.io"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/onmodulus/blackbeard.git"
+  },
+  "bugs": {
+    "url": "https://github.com/onmodulus/blackbeard/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/onmodulus/blackbeard/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.6.0"
+  },
+  "dependencies" : {
+    "request" : "2.11.x"
+  },
+  "devDependencies": {
+    "grunt": "~0.3.15",
+    "docco-husky": "~0.3.3"
+  },
+  "docco_husky" : {
+    "output_dir" : "docs",
+    "project_name" : "Black Beard",
+    "show_timestamp" : false
+  }
+}
